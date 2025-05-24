@@ -1,0 +1,20 @@
+# Ignore finalized files and folders to improve Bolt performance
+
+# Blog posts
+src/blog/posts/*
+
+# Industry landing pages
+src/pages/industries/*
+
+# Finalized components
+src/Calculator.tsx
+src/App.tsx
+
+# State pages
+src/pages/states/*
+
+# Other large files
+node_modules/
+dist/
+build/
+.git/
