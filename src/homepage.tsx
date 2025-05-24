@@ -74,7 +74,7 @@ function App() {
       </section>
 
       {/* What is the R&D Tax Credit Section */}
-      <section className="py-20 px-4 bg-white">
+      <section className="py-20 px-4 bg-[#F8FAFC]">
         <div className="max-w-7xl mx-auto">
           <div className={`section-container ${isVisible ? 'visible' : ''}`}>
             <div className="text-center mb-12">
@@ -117,8 +117,45 @@ function App() {
         </div>
       </section>
 
+      {/* Trusted by Businesses Section */}
+      <section className="py-20 px-4 bg-[#124C56] text-white">
+        <div className="max-w-7xl mx-auto">
+          <div className={`section-container ${isVisible ? 'visible' : ''}`}>
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-4">
+                Trusted by Businesses Nationwide
+              </h2>
+              <p className="text-xl text-white/80 max-w-3xl mx-auto">
+                Join hundreds of companies maximizing their R&D tax credits with our expert guidance
+              </p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-12">
+              <div className="text-center">
+                <DollarSign className="w-12 h-12 mx-auto mb-4" />
+                <h3 className="text-3xl font-bold mb-2">
+                  <CountUp end={73} prefix="$" suffix="M+" duration={2.5} />
+                </h3>
+                <p className="text-lg text-white/80">Credits Secured</p>
+              </div>
+              <div className="text-center">
+                <Briefcase className="w-12 h-12 mx-auto mb-4" />
+                <h3 className="text-3xl font-bold mb-2">
+                  <CountUp end={500} suffix="+" duration={2.5} />
+                </h3>
+                <p className="text-lg text-white/80">Successful Studies</p>
+              </div>
+              <div className="text-center">
+                <Shield className="w-12 h-12 mx-auto mb-4" />
+                <h3 className="text-3xl font-bold mb-2">100%</h3>
+                <p className="text-lg text-white/80">Audit Success Rate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Who Qualifies Section */}
-      <section className="py-20 px-4 bg-[#F8FAFC]">
+      <section className="py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className={`section-container ${isVisible ? 'visible' : ''}`}>
             <div className="text-center mb-12">
@@ -162,43 +199,6 @@ function App() {
                 See If You Qualify 
                 <ArrowRight className="w-5 h-5 ml-1 transition-transform group-hover:translate-x-1" />
               </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Trusted by Businesses Section */}
-      <section className="py-20 px-4 bg-[#124C56] text-white">
-        <div className="max-w-7xl mx-auto">
-          <div className={`section-container ${isVisible ? 'visible' : ''}`}>
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">
-                Trusted by Businesses Nationwide
-              </h2>
-              <p className="text-xl text-white/80 max-w-3xl mx-auto">
-                Join hundreds of companies maximizing their R&D tax credits with our expert guidance
-              </p>
-            </div>
-            <div className="grid md:grid-cols-3 gap-12">
-              <div className="text-center">
-                <DollarSign className="w-12 h-12 mx-auto mb-4" />
-                <h3 className="text-3xl font-bold mb-2">
-                  <CountUp end={73} prefix="$" suffix="M+" duration={2.5} />
-                </h3>
-                <p className="text-lg text-white/80">Credits Secured</p>
-              </div>
-              <div className="text-center">
-                <Briefcase className="w-12 h-12 mx-auto mb-4" />
-                <h3 className="text-3xl font-bold mb-2">
-                  <CountUp end={500} suffix="+" duration={2.5} />
-                </h3>
-                <p className="text-lg text-white/80">Successful Studies</p>
-              </div>
-              <div className="text-center">
-                <Shield className="w-12 h-12 mx-auto mb-4" />
-                <h3 className="text-3xl font-bold mb-2">100%</h3>
-                <p className="text-lg text-white/80">Audit Success Rate</p>
-              </div>
             </div>
           </div>
         </div>
