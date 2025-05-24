@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle, DollarSign, FileCheck, Shield, ChevronRight, Beaker, Briefcase, Code, Building2, Plane, Leaf, Flask, Zap } from 'lucide-react';
+import { ArrowRight, CheckCircle, DollarSign, FileCheck, Shield, ChevronRight, Beaker, Briefcase, Code, Building2, Plane, Leaf, FlaskRound as Flask, Zap } from 'lucide-react';
 import CountUp from 'react-countup';
 import Layout from './components/Layout';
 import SEO from './components/SEO';
